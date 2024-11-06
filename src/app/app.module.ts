@@ -9,6 +9,8 @@ import { PrimerComponent } from '../components/primercomponent/primer.component'
 import { HooksAngular } from '../components/hooksangular/hooksangular.component';
 import { DeportesComponent } from '../components/deportes/deportes.component';
 import { FormsBindingComponent } from '../components/formsbinding/formsbinding.component';
+import { SumarNumerosComponent } from '../components/sumanumeros/sumanumeros.component';
+import { PruebaComponent } from './components/prueba/prueba.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { FormsBindingComponent } from '../components/formsbinding/formsbinding.c
     PrimerComponent,
     HooksAngular,
     DeportesComponent,
-    FormsBindingComponent
+    FormsBindingComponent,
+    SumarNumerosComponent,
+    PruebaComponent
     
   ],
   imports: [
