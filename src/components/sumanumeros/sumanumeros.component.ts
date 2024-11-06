@@ -1,4 +1,4 @@
-import { Component, ViewChild, ElementRef, viewChild } from "@angular/core";
+import { Component, ViewChild, ElementRef } from "@angular/core";
 
 @Component({
     selector: "app-sumar-numeros",

@@ -11,6 +11,7 @@ import { DeportesComponent } from '../components/deportes/deportes.component';
 import { FormsBindingComponent } from '../components/formsbinding/formsbinding.component';
 import { SumarNumerosComponent } from '../components/sumanumeros/sumanumeros.component';
 import { PruebaComponent } from './components/prueba/prueba.component';
+import { TablamultiplicarComponent } from './components/tablamultiplicar/tablamultiplicar.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { PruebaComponent } from './components/prueba/prueba.component';
     DeportesComponent,
     FormsBindingComponent,
     SumarNumerosComponent,
-    PruebaComponent
+    PruebaComponent,
+    TablamultiplicarComponent
     
   ],
   imports: [
