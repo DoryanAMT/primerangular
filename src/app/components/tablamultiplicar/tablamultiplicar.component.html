@@ -6,15 +6,22 @@
         #cajanumero>
         <button (click)="mostrarTabla()">Mostrar Tabla</button>
     </form>
-    <table border="1">
+    <table border="1" *ngIf="numeros.length > 0">
         <thead>
             <tr>
                 <th>Operacion</th>
                 <th>Resultado</th>
             </tr>
         </thead>
-        <tbody *ngFor="">
-            
+        <tbody>
+            <tr *ngFor="let num of numeros; let i = index">
+                <td>
+                    {{numero}} * {{ i + 1}}
+                </td>
+                <td>
+                    {{num}}
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>
